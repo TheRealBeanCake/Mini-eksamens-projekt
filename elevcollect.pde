@@ -211,7 +211,7 @@ void draw()
   }
   
   //writes to file
-  write_this = split(name + "," + str(correctAnswers) + "," + str(questions.size()),'}');
+  write_this = new String[]{name + "," + str(correctAnswers) + "," + str(questions.size())};
   saveStrings(file_write, write_this);
   //
   
