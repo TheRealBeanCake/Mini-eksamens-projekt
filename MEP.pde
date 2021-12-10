@@ -15,6 +15,8 @@ int optionButtonRadius = 50;
 PVector nextQuestionButtonSize = new PVector(150, 75);
 PVector nextQuestionButton = new PVector(750, 130);
 
+PVector doneButtonSize = new PVector(150, 75);
+PVector doneButton = new PVector(1300, 200);
 
 int[] answerList;
 int correctAnswers = 0;
@@ -180,7 +182,21 @@ void draw()
   text("Navn", 750, 575);
   slutBoks.Draw();
   
+  color c = color(133,133,133);
   
+  if(mouseX > doneButton.x - doneButtonSize.x && mouseX < doneButton.x + doneButtonSize.x && mouseY > doneButton.y - doneButtonSize.y && mouseY < doneButton.y + doneButtonSize.y)
+  {
+    c = color(200,200,200);
+  }
+  
+  push();
+  fill(c);
+  rectMode(RADIUS);
+  rect(doneButton.x, doneButton.y, doneButtonSize.x, doneButtonSize.y, 10);
+  fill(255,255,255);
+  textAlign(CENTER);
+  text("Færdig", doneButton.x, doneButton.y + 20);
+  pop();
   
   }
   
@@ -247,7 +263,24 @@ void keyPressed()
     
     }
     
+    if(mouseX > doneButton.x - doneButtonSize.x && mouseX < doneButton.x + doneButtonSize.x && mouseY > doneButton.y - doneButtonSize.y && mouseY < doneButton.y + doneButtonSize.y)
+    {
+    //Færdig
     
+    if(slutBoks.text.length() > 0)
+    {
+      //DONE
+      
+      exit();
+    }
+    else
+    {
+    //INTET NAVN
+    
+    return;
+    }
+    
+    }
   }
 
 void NextQuestion()
