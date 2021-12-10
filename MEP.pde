@@ -19,13 +19,14 @@ PVector nextQuestionButton = new PVector(750, 130);
 int[] answerList;
 int correctAnswers = 0;
 
+Textboks slutBoks;
 
 boolean inQuiz;
 
 void settings()
 {
   size(1500, 927);
-  
+  slutBoks = new Textboks(new PVector(525, 600), new PVector(450,100), "");
 }
 
 void setup()
@@ -49,9 +50,13 @@ void draw()
 {
   clear();
   
+  
+  
+  
   if(inQuiz == true)
   {
     ShowQuestion();
+  
   
   if(frameCount % 30 == 0)
   {
@@ -172,6 +177,11 @@ void draw()
   
   text("time used: " + timeText, width/2, height/2-200);  
   
+  text("Navn", 750, 575);
+  slutBoks.Draw();
+  
+  
+  
   }
   
   
@@ -182,9 +192,15 @@ void StartGame()
   
 }
 
+void keyPressed()
+{
+ slutBoks.KeyPress(); 
+}
 
   void mouseClicked()
   {
+    slutBoks.Pressed();
+    
     if(mouseX > nextQuestionButton.x - nextQuestionButtonSize.x && mouseX < nextQuestionButton.x + nextQuestionButtonSize.x && mouseY > nextQuestionButton.y - nextQuestionButtonSize.y && mouseY < nextQuestionButton.y + nextQuestionButtonSize.y)
     {
      int ans = -1;
