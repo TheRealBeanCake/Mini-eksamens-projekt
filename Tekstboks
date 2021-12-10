@@ -1,0 +1,99 @@
+
+
+
+
+class Textboks
+{
+ 
+  PVector pos;
+  PVector dimensions;
+  String text;
+  boolean isFocused;
+  
+  Textboks(PVector pos, PVector dimensions, String tekst)
+  {  
+    this.pos = pos;
+    this.dimensions = dimensions;
+    text = tekst;  
+    isFocused = false;
+}
+  
+  void Pressed()
+  {
+    println(isFocused);
+   if(mouseX > pos.x && mouseX < pos.x + dimensions.x && mouseY > pos.y && mouseY < pos.y + dimensions.y)
+   {
+     //inde
+   isFocused = true;  
+     
+   }
+   else
+   {
+   //væk
+   isFocused = false;
+   
+   }
+  }
+  
+  void Draw()
+  {
+    DrawBox();
+    DrawText();
+    
+  }
+  
+  void DrawBox()
+  {
+    stroke(205);
+    
+    
+    if(isFocused)
+    {
+      fill(210);
+    }
+    else
+    {
+      fill(150);
+    }
+    
+    rect(pos.x, pos.y, dimensions.x, dimensions.y);
+    
+
+  }
+  
+  void DrawText()
+  {
+    textAlign(LEFT, CENTER);
+    textSize(44);
+    fill(255);
+    text(text, pos.x + 5, pos.y + dimensions.y / 2);
+  }
+  
+  void KeyPress()
+  {
+    if(isFocused)
+    {
+     if(key == BACKSPACE)
+     {
+       if(text.length() > 0)
+       {
+         text = text.substring(0, text.length()-1);
+       }
+       
+       return;
+     }
+      
+      if(key == SHIFT)
+      {
+       return; 
+      }
+      
+      if(text.length() <= 16)
+      {
+        text += key; 
+      }
+      
+    }
+  }
+  
+}
