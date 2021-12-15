@@ -18,12 +18,31 @@ PVector nextQuestionButton = new PVector(750, 130);
 PVector doneButtonSize = new PVector(150, 75);
 PVector doneButton = new PVector(1300, 200);
 
+String timeText = "";
+
 int[] answerList;
 int correctAnswers = 0;
 
 Textboks slutBoks;
 
 boolean inQuiz;
+
+
+//Question
+String[] split_linei;
+String run_quest;
+int run_ans;
+String run_opt;
+String[] options; 
+String file_read = "read.txt"; //file that contains questions+answers
+String[] file;
+//
+
+//Save_score
+//eleven har ikke nogen måde at angive sit navn...
+String[] write_this;
+String file_write = "write.txt"; //file that writes name and scores
+
 
 void settings()
 {
@@ -37,9 +56,25 @@ void setup()
   
   inQuiz = true;
   
-  questions.add(new Question("[Spørgsmål]", new String[] {"svar1","svar2","svar3"}, 1));
-  questions.add(new Question("1+1=x2 [Question2]", new String[] {"121","322","324"}, 1));
-  questions.add(new Question("Er kaj sej ????? [Question3]", new String[] {"ja","nope","ok","ok","ok","ok","ok"}, 1));
+  //Question
+  file = loadStrings(file_read); 
+  for (int i = 0; i < file.length; i++)
+  {
+    split_linei = split(file[i], ',');
+    
+    //reads question
+    run_quest = split_linei[1].substring(1, split_linei[1].length()-1);
+    
+    //reads answer
+    run_ans = int(split_linei[3])-1;
+    
+    //reads options
+    run_opt = split_linei[5];
+    options = split(run_opt, '_');
+    
+    questions.add(new Question(run_quest, options, run_ans));
+  }
+  //
   
   
   answerList = new int[questions.size()];
@@ -79,7 +114,6 @@ void draw()
   {
     minAddZero = true;
   }
-  String timeText = "";
   
   if(secAddZero)
   {
@@ -270,6 +304,15 @@ void keyPressed()
     if(slutBoks.text.length() > 0)
     {
       //DONE
+      
+      
+      
+      //writes to file
+      write_this = new String[]{krypter(slutBoks.text + "," + str(correctAnswers) + "," + str(questions.size()) + ',' + timeText)};
+      saveStrings(file_write, write_this);
+      //
+      
+      println(dekrypter(krypter(slutBoks.text + "," + str(correctAnswers) + "," + str(questions.size()) + ',' + timeText)));
       
       exit();
     }
