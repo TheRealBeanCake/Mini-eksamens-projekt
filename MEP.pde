@@ -34,8 +34,10 @@ String run_quest;
 int run_ans;
 String run_opt;
 String[] options; 
-String file_read = "read.txt"; //file that contains questions+answers
-String[] file;
+String file_read1 = "spørgsmål_del1.txt"; //file that contains questions+answers
+String file_read2 = "spørgsmål_del2.txt"; //file that contains questions+answers
+String[] file1;
+String[] file2;
 //
 
 //Save_score
@@ -56,11 +58,29 @@ void setup()
   
   inQuiz = true;
   
-  //Question
-  file = loadStrings(file_read); 
-  for (int i = 0; i < file.length; i++)
+  //Questions
+  file1 = loadStrings(file_read1); 
+  for (int i = 0; i < file1.length; i++)
   {
-    split_linei = split(file[i], ',');
+    split_linei = split(file1[i], ';');
+    
+    //reads question
+    run_quest = split_linei[1].substring(1, split_linei[1].length()-1);
+    
+    //reads answer
+    run_ans = int(split_linei[3])-1;
+    
+    //reads options
+    run_opt = split_linei[5];
+    options = split(run_opt, '_');
+    
+    questions.add(new Question(run_quest, options, run_ans));
+  }
+  
+  file2 = loadStrings(file_read2); 
+  for (int i = 0; i < file2.length; i++)
+  {
+    split_linei = split(file2[i], ';');
     
     //reads question
     run_quest = split_linei[1].substring(1, split_linei[1].length()-1);
@@ -374,6 +394,7 @@ void SetQuestion(int idx)
   optionButtons.clear();
   
   int n = currentQuestion.options.length;
+  println(n);
   int deltaX = (width - optionsBorder*2)/(n-1);
   
   for(int i = 0; i < currentQuestion.options.length; i++)
@@ -387,16 +408,23 @@ void ShowQuestion()
 {
   //Viser currentQuestion
   
-  textSize(100);
+  textSize(28);
     textAlign(CENTER);
-  text(currentQuestion.questionText, questionPos.x, questionPos.y);
+  String[] c_questsplit = split(currentQuestion.questionText,'.');
+   
+   //skubber linjen 40 pixels ned, for hver punktum (så alle sætninger ikke står på samme linje)
+   for(int i = 0; i < c_questsplit.length; i++)
+   {
+     text(c_questsplit[i], questionPos.x, questionPos.y+i*40);
+   }
+
   
   int n = currentQuestion.options.length;
   int deltaX = (width - optionsBorder*2)/(n-1);
   
   for(int i = 0; i < n; i++)
    {
-     textSize(60);
+     textSize(24);
     textAlign(CENTER);
   text(currentQuestion.options[i], optionsBorder + deltaX*i, optionsY);
    }
