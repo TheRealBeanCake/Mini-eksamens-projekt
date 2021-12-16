@@ -1,0 +1,14 @@
+spørgsmål;"En trekant har 2 indre vinkler på 30 grader og 50 grader. Hvor stor er den tredje vinkel";svarnummer;1;svarmuligheder;100_90_80_70
+spørgsmål;"Svar hvilke tal af følgende der går op i primtallet 79?";svarnummer;2;svarmuligheder;1,7,9,79_1,79_1,13,17,79_1,6,9,79
+spørgsmål;"I en pose ligger 45 bolde. 5 bolde er blå. Hvis jeg udtrækker en tilfældig bold, hvad er sandsynligheden i decimaltal for, at bolden er blå?";svarnummer;1;svarmuligheder;1/9_1/7_0,2_0,05
+spørgsmål;"Bestem det manglende tal i talrækken: 2 6 12 20 ? 42";svarnummer;4;svarmuligheder;26_32_28_30
+spørgsmål;"En funktionsforskrift for en lineær funktion er f(x) = 3x+18. Hvad er hældningen for f(x)?";svarnummer;1;svarmuligheder;3_18_-3_-6
+spørgsmål;"En funktionsforskrift for en lineær funktion er f(x) = 2x+9. Hvad er skæringen med x-aksen for f(x)?";svarnummer;4;svarmuligheder;2_9_-8,33_-4,5
+spørgsmål;"En funktionsforskrift for en lineær funktion er f(x) = 69x+9. Hvad er skæringen med y-aksen for f(x)?";svarnummer;4;svarmuligheder;0,13_69_12_9
+spørgsmål;"Hvad er arealet af en cirkel?";svarnummer;3;svarmuligheder;2*r*pi_pi*2*r_r^2*pi_pi^2*r
+spørgsmål;"Hvis en cirkel har en diameter på 1, hvor stor er cirklens omkreds?";svarnummer;3;svarmuligheder;2pi_9_pi_2
+spørgsmål;"Om tallet “a” ved man at 2017a^2017 + 100 = 110. Hvad er 2017(−a)^2017 + 100?";svarnummer;3;svarmuligheder;100_120_90_-100
+spørgsmål;"I morgen er det onsdag, og der er jeg dobbelt så gammel som jeg var i fredags. Hvor mange dage gammel er jeg i dag?";svarnummer;1;svarmuligheder;9_8_7_5
+spørgsmål;"Summen af 81 på hinanden følgende hele tal er 3^8. Hvad er det midterste af de 81 tal?";svarnummer;2;svarmuligheder;3_81_811_1
+spørgsmål;"Bestem det mindste hele tal n så x^10 − 1001x^7 + 1 > 0 for alle x ≥ n";svarnummer;4;svarmuligheder;8_9_10_11
+spørgsmål;"Hvilket af følgende tal er mindst?";svarnummer;1;svarmuligheder;3/103_1/33_3/100_30/1003
