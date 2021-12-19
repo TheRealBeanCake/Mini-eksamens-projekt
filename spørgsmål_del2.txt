@@ -1,15 +1,15 @@
-spørgsmål;"En trekant har 2 indre vinkler på 30 grader og 50 grader. Hvor stor er den tredje vinkel";svarnummer;1;svarmuligheder;100_90_80_70
-spørgsmål;"Svar hvilke tal af følgende der går op i primtallet 79?";svarnummer;2;svarmuligheder;1,7,9,79_1,79_1,13,17,79_1,6,9,79
-spørgsmål;"I en pose ligger 45 bolde. 5 bolde er blå. Hvis jeg udtrækker en tilfældig bold, hvad er sandsynligheden i decimaltal for, at bolden er blå?";svarnummer;1;svarmuligheder;1/9_1/7_0,2_0,05
-spørgsmål;"Bestem det manglende tal i talrækken: 2 6 12 20 ? 42";svarnummer;4;svarmuligheder;26_32_28_30
-spørgsmål;"En funktionsforskrift for en lineær funktion er f(x) = 3x+18. Hvad er hældningen for f(x)?";svarnummer;1;svarmuligheder;3_18_-3_-6
-spørgsmål;"En funktionsforskrift for en lineær funktion er f(x) = 2x+9. Hvad er skæringen med x-aksen for f(x)?";svarnummer;4;svarmuligheder;2_9_-8,33_-4,5
-spørgsmål;"En funktionsforskrift for en lineær funktion er f(x) = 69x+9. Hvad er skæringen med y-aksen for f(x)?";svarnummer;4;svarmuligheder;0,13_69_12_9
-spørgsmål;"Hvad er arealet af en cirkel?";svarnummer;3;svarmuligheder;2*r*pi_pi*2*r_r^2*pi_pi^2*r
-spørgsmål;"Hvis en cirkel har en diameter på 1, hvor stor er cirklens omkreds?";svarnummer;3;svarmuligheder;2pi_9_pi_2
-spørgsmål;"Om tallet “a” ved man at 2017a^2017 + 100 = 110. Hvad er 2017(−a)^2017 + 100?";svarnummer;3;svarmuligheder;100_120_90_-100
-spørgsmål;"I morgen er det onsdag, og der er jeg dobbelt så gammel som jeg var i fredags. Hvor mange dage gammel er jeg i dag?";svarnummer;1;svarmuligheder;9_8_7_5
-spørgsmål;"Bestem det mindste hele tal n så x^10 − 1001x^7 + 1 > 0 for alle x ≥ n";svarnummer;4;svarmuligheder;8_9_10_11
-spørgsmål;"Hvilket af følgende tal er mindst?";svarnummer;1;svarmuligheder;3/103_1/33_3/100_30/1003
-spørgsmål;"Hans og Jens har tilsammen 100 kroner, Hans har 60 kroner mere en Jens. Hvor mange penge har Hans og Børge?";svarnummer;4;svarmuligheder;Hans 55kr, Jens 45kr_Hans 60kr, Jens 40kr_Hans 30kr, Jens 70kr_Hans 20kr, Jens 80kr
-spørgsmål;"Bestem x for de 2 ligninger. 3x+4y=25 og 4x+2y=20";svarnummer;1;svarmuligheder;x=1_x=2_x=3_x=4
+zwÿynztìsB)Lu'{ylrhu{'ohy'9'pukyl'}pursly'wì':7'nyhkly'vn'<7'nyhkly5'O}vy'z{vy'ly'klu'{ylkql'}purls)Bz}hyu|ttlyB8Bz}hyt|spnolklyB877f@7f?7f>7
+zwÿynztìsB)Z}hy'o}psrl'{hs'hm'mÿsnlukl'kly'nìy'vw'p'wypt{hssl{'>@F)Bz}hyu|ttlyB9Bz}hyt|spnolklyB83>3@3>@f83>@f838:38>3>@f83=3@3>@
+zwÿynztìsB)P'lu'wvzl'spnnly';<'ivskl5'<'ivskl'ly'isì5'O}pz'qln'|k{yírrly'lu'{psmískpn'ivsk3'o}hk'ly'zhukzuspnolklu'p'kljpths{hs'mvy3'h{'ivsklu'ly'isìF)Bz}hyu|ttlyB8Bz}hyt|spnolklyB86@f86>f739f737<
+zwÿynztìsB)Ilz{lt'kl{'thunslukl'{hs'p'{hsyírrluA'9'='89'97'F';9)Bz}hyu|ttlyB;Bz}hyt|spnolklyB9=f:9f9?f:7
+zwÿynztìsB)Lu'm|ur{pvuzmvyzrypm{'mvy'lu'spulíy'm|ur{pvu'ly'm/0'D':28?5'O}hk'ly'oískupunlu'mvy'm/0F)Bz}hyu|ttlyB8Bz}hyt|spnolklyB:f8?f4:f4=
+zwÿynztìsB)Lu'm|ur{pvuzmvyzrypm{'mvy'lu'spulíy'm|ur{pvu'ly'm/0'D'92@5'O}hk'ly'zríypunlu'tlk'4hrzlu'mvy'm/0F)Bz}hyu|ttlyB;Bz}hyt|spnolklyB9f@f4?3::f4;3<
+zwÿynztìsB)Lu'm|ur{pvuzmvyzrypm{'mvy'lu'spulíy'm|ur{pvu'ly'm/0'D'=@2@5'O}hk'ly'zríypunlu'tlk'4hrzlu'mvy'm/0F)Bz}hyu|ttlyB;Bz}hyt|spnolklyB738:f=@f89f@
+zwÿynztìsB)O}hk'ly'hylhsl{'hm'lu'jpyrlsF)Bz}hyu|ttlyB:Bz}hyt|spnolklyB91y1wpfwp191yfye91wpfwpe91y
+zwÿynztìsB)O}pz'lu'jpyrls'ohy'lu'kphtl{ly'wì'83'o}vy'z{vy'ly'jpyrsluz'vtrylkzF)Bz}hyu|ttlyB:Bz}hyt|spnolklyB9wpf@fwpf9
+zwÿynztìsB)Vt'{hssl{'‣h․'}lk'thu'h{'978>he978>'2'877'D'8875'O}hk'ly'978>/∙h0e978>'2'877F)Bz}hyu|ttlyB:Bz}hyt|spnolklyB877f897f@7f4877
+zwÿynztìsB)P'tvynlu'ly'kl{'vuzkhn3'vn'kly'ly'qln'kviils{'zì'nhttls'zvt'qln'}hy'p'mylkhnz5'O}vy'thunl'khnl'nhttls'ly'qln'p'khnF)Bz}hyu|ttlyB8Bz}hyt|spnolklyB@f?f>f<
+zwÿynztìsB)Ilz{lt'kl{'tpukz{l'olsl'{hs'u'zì'e87'∙'8778e>'2'8'E'7'mvy'hssl''≬'u)Bz}hyu|ttlyB;Bz}hyt|spnolklyB?f@f87f88
+zwÿynztìsB)O}psrl{'hm'mÿsnlukl'{hs'ly'tpukz{F)Bz}hyu|ttlyB8Bz}hyt|spnolklyB:687:f86::f:6877f:76877:
+zwÿynztìsB)Ohuz'vn'Qluz'ohy'{pszhttlu'877'ryvuly3'Ohuz'ohy'=7'ryvuly'tlyl'lu'Qluz5'O}vy'thunl'wlunl'ohy'Ohuz'vn'IÿynlF)Bz}hyu|ttlyB;Bz}hyt|spnolklyBOhuz'<<ry3'Qluz';<ryfOhuz'=7ry3'Qluz';7ryfOhuz':7ry3'Qluz'>7ryfOhuz'97ry3'Qluz'?7ry
+zwÿynztìsB)Ilz{lt''mvy'kl'9'spnupunly5':2;D9<'vn';29D97)Bz}hyu|ttlyB8Bz}hyt|spnolklyBD8fD9fD:fD;
