@@ -1,0 +1,269 @@
+import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.Transferable;
+import java.awt.datatransfer.UnsupportedFlavorException;
+
+PVector textFieldDimensions = new PVector(400, 75);
+PVector textFieldPosition = new PVector(250, 50);
+
+String currentText = "";
+String infoText = "klik på Paste knappen for at indskrive din ctrl+c ind";
+
+PVector pasteButtonDimensions = new PVector(350, 50);
+PVector pasteButtonPosition = new PVector(250, 150);
+
+PVector krypterKnapPosition = new PVector(150,300);
+PVector dekrypterKnapPosition = new PVector(350,300);
+PVector dimensioner = new PVector(175, 50);
+
+
+
+void setup()
+{
+ 
+  size(500,500);
+  
+  
+
+  
+  
+}
+
+void draw()
+{
+  clear();
+  
+  rectMode(CENTER);
+  rect(textFieldPosition.x, textFieldPosition.y, textFieldDimensions.x, textFieldDimensions.y);
+  
+  
+  
+  push();
+  fill(100);
+  textSize(20);
+  text(currentText, textFieldPosition.x -180, textFieldPosition.y + 10);
+  pop();
+  
+  
+  
+  
+  
+  
+  
+  
+  push();
+  //tjek hvis mus over
+  float dimX = pasteButtonDimensions.x / 2;
+  float dimY = pasteButtonDimensions.y / 2;
+  if(mouseX > pasteButtonPosition.x - dimX && mouseX < pasteButtonPosition.x + dimX && mouseY > pasteButtonPosition.y - dimY && mouseY < pasteButtonPosition.y + dimY)
+  {
+    //mus er over
+    fill(220); 
+  }
+  else
+  {
+    fill(255);
+  }
+  rect(pasteButtonPosition.x, pasteButtonPosition.y, pasteButtonDimensions.x, pasteButtonDimensions.y);
+  pop();
+  
+  push();
+  fill(100);
+  textSize(34);
+  text("Paste", pasteButtonPosition.x -50, pasteButtonPosition.y + 13);
+  pop();
+  
+  push();
+  //tjek hvis mus over
+  dimX = dimensioner.x / 2;
+  dimY = dimensioner.y / 2;
+  if(mouseX > krypterKnapPosition.x - dimX && mouseX < krypterKnapPosition.x + dimX && mouseY > krypterKnapPosition.y - dimY && mouseY < krypterKnapPosition.y + dimY)
+  {
+    //mus er over
+    fill(220); 
+  }
+  else
+  {
+    fill(255);
+  }
+  rect(krypterKnapPosition.x, krypterKnapPosition.y, dimensioner.x, dimensioner.y);
+  pop();
+  
+  push();
+  fill(100);
+  textSize(28);
+  text("Krypter", krypterKnapPosition.x -50, krypterKnapPosition.y + 10);
+  pop();
+  
+  push();
+  //tjek hvis mus over
+  
+  if(mouseX > dekrypterKnapPosition.x - dimX && mouseX < dekrypterKnapPosition.x + dimX && mouseY > dekrypterKnapPosition.y - dimY && mouseY < dekrypterKnapPosition.y + dimY)
+  {
+    //mus er over
+    fill(220); 
+  }
+  else
+  {
+    fill(255);
+  }
+  rect(dekrypterKnapPosition.x, dekrypterKnapPosition.y, dimensioner.x, dimensioner.y);
+  pop();
+  
+  
+  
+push();
+  fill(100);
+  textSize(28);
+  text("Dekrypter", dekrypterKnapPosition.x -65, dekrypterKnapPosition.y + 10);
+  pop();
+  
+  push();
+  
+  fill(255);
+  textSize(16);
+  text(infoText, 30, 450);
+  pop();
+  
+}
+
+void mousePressed()
+{
+  float dimX = pasteButtonDimensions.x / 2;
+  float dimY = pasteButtonDimensions.y / 2;
+  //clickpaste
+  if(mouseX > pasteButtonPosition.x - dimX && mouseX < pasteButtonPosition.x + dimX && mouseY > pasteButtonPosition.y - dimY && mouseY < pasteButtonPosition.y + dimY)
+  {
+    currentText = GetTextFromClipboard();
+    
+    infoText = "Tryk på krypter eller dektrypter for at få krypteret eller \n dekrypteret en ny tekst ind til din ctrl+c";
+  }
+dimX = dimensioner.x / 2;
+  dimY = dimensioner.y / 2;
+  //clickkrypter
+  if(mouseX > krypterKnapPosition.x - dimX && mouseX < krypterKnapPosition.x + dimX && mouseY > krypterKnapPosition.y - dimY && mouseY < krypterKnapPosition.y + dimY)
+  {
+    String s = krypter(currentText);
+    StringSelection selection = new StringSelection(s);
+  Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+  clipboard.setContents(selection, null);
+  
+  infoText = "Teksten er nu blevet krypteret og indsat i din ctrl+c";
+  }
+  
+  //clickdekrypter
+  if(mouseX > dekrypterKnapPosition.x - dimX && mouseX < dekrypterKnapPosition.x + dimX && mouseY > dekrypterKnapPosition.y - dimY && mouseY < dekrypterKnapPosition.y + dimY)
+  {
+    String s = dekrypter(currentText);
+    StringSelection selection = new StringSelection(s);
+  Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+  clipboard.setContents(selection, null);
+  
+  infoText = "Teksten er nu blevet dekrypteret og indsat i din ctrl+c";
+  }
+}
+
+
+
+//hentet fra https://discourse.processing.org/t/answered-how-to-get-text-from-paste-buffer/1900/3
+String GetTextFromClipboard () {
+  String text = (String) GetFromClipboard(DataFlavor.stringFlavor);
+
+  if (text==null) 
+    return "";
+
+  return text;
+}
+
+//hentet fra https://discourse.processing.org/t/answered-how-to-get-text-from-paste-buffer/1900/3
+Object GetFromClipboard (DataFlavor flavor) {
+
+  Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+
+  Transferable contents = clipboard.getContents(null);
+  Object object = null; // the potential result 
+
+  if (contents != null && contents.isDataFlavorSupported(flavor)) {
+    try
+    {
+      object = contents.getTransferData(flavor);
+      
+    }
+
+    catch (UnsupportedFlavorException e1) // Unlikely but we must catch it
+    {
+      
+      e1.printStackTrace();
+    }
+
+    catch (java.io.IOException e2)
+    {
+      
+      e2.printStackTrace() ;
+    }
+  }
+
+  return object;
+} 
+
+String krypter(String input)
+{
+  char[] chars = new char[input.length()];
+  
+  for(int i = 0; i < input.length(); i++)
+  {
+    chars[i] = input.charAt(i);
+  }
+  
+  int[] ints = new int[input.length()];
+  
+  for(int i = 0; i < input.length(); i++)
+  {
+   ints[i] = int(chars[i]) + 7;
+    
+  }
+  
+  char[] str = new char[input.length()];
+  
+  for(int i = 0; i < input.length(); i++)
+  {
+   str[i] = char(ints[i]);
+ 
+  }
+  
+  return new String(str);
+  
+}
+
+
+
+String dekrypter(String input)
+{
+  char[] chars = new char[input.length()];
+  
+  for(int i = 0; i < input.length(); i++)
+  {
+    chars[i] = input.charAt(i);
+  }
+  
+  int[] ints = new int[input.length()];
+  
+  for(int i = 0; i < input.length(); i++)
+  {
+   ints[i] = int(chars[i]) - 7;
+    
+  }
+  
+  char[] str = new char[input.length()];
+  
+  for(int i = 0; i < input.length(); i++)
+  {
+   str[i] = char(ints[i]);
+ 
+  }
+  
+  return new String(str);
+  
+}
