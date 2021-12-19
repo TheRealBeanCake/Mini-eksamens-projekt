@@ -6,7 +6,7 @@ spørgsmål;"En funktion har forskriften g(x)=x/(x-2). Bestem g(-2)";svarnummer;
 spørgsmål;"En funktion har forskriften g(x)=x/(x-2). Bestem g(x)=2";svarnummer;2;svarmuligheder;-6_4_6_8_2
 spørgsmål;"Udfyld det manglende tal i talrækken, givet at x og y er ligefrem proportionale. x=[3,?,9] y=[18,42,54]";svarnummer;2;svarmuligheder;6_7_8_5
 spørgsmål;"Hvilken funktion beskriver regneopskriften: Læg fire til tallet.";svarnummer;4;svarmuligheder;f(x)=2x+2_f(x)=4x_f(x)=x^4_f(x)=x+4
-spørgsmål;"Bestem x-værdien til skærringspunktet mellem de 2 grafer. f(x)=3x+8, g(x)=7x-4";svarnummer;3;svarmuligheder;1_2_3_4
+spørgsmål;"Bestem x-værdien til skæringspunktet mellem de 2 grafer. f(x)=3x+8, g(x)=7x-4";svarnummer;3;svarmuligheder;1_2_3_4
 spørgsmål;"Hvilken forskrift for en lineær funktion går gennem punktet P(2,1) og har hældningskoefficienten a=-1/2";svarnummer;2;svarmuligheder;f(x)=1/2x+2_f(x)=-1/2x+2_f(x)=1/4-2_f(x)=-1/2x-2
 spørgsmål;"Hvilken forskrift for en lineær funktion går gennem punkterne A(2,3) og B(-1,9)?";svarnummer;2;svarmuligheder;f(x)=4x+5_f(x)=-2x+7_f(x)=-x+5_f(x)=-1/2x+3
 spørgsmål;"Ligger punkterne A(−6,−1), B(−1,5) og C(14,23) på en ret linje?";svarnummer;1;svarmuligheder;Ja_Nej
@@ -16,5 +16,5 @@ spørgsmål;"For den lineære funktion h(x) gælder h(−1) = −13 og h(4) = 32
 spørgsmål;"En linje har hældningen −2 og går gennem punktet (3,1). Hvis stigningen i funktionsværdien er 38, hvad er ændringen for x?";svarnummer;4;svarmuligheder;-17_19_17_-19
 spørgsmål;"Hvordan betegnes forklaringsgraden for en linje af lineær regression normalt?";svarnummer;3;svarmuligheder;F^2_C_R^2_E2
 spørgsmål;"Hvad er den generelle forskrift for lineær funktion?";svarnummer;1;svarmuligheder;f(x)=ax+b_f(x)=bx*c_f(x)=ax+x_f(x)=x^2
-spørgsmål;"Skærre de 2 funktioner hinanden? f(x)=1/2x+5 og g(x)=-1/2x+6";svarnummer;1;svarmuligheder;Ja_Nej
-spørgsmål;"Skærre de 2 funktioner hinanden? f(x)=15x+22 og g(x)=15x+7";svarnummer;2;svarmuligheder;Ja_Nej
+spørgsmål;"Skærer de 2 funktioner hinanden? f(x)=1/2x+5 og g(x)=-1/2x+6";svarnummer;1;svarmuligheder;Ja_Nej
+spørgsmål;"Skærer de 2 funktioner hinanden? f(x)=15x+22 og g(x)=15x+7";svarnummer;2;svarmuligheder;Ja_Nej
