@@ -11,3 +11,5 @@ spørgsmål;"Om tallet “a” ved man at 2017a^2017 + 100 = 110. Hvad er 2017(�
 spørgsmål;"I morgen er det onsdag, og der er jeg dobbelt så gammel som jeg var i fredags. Hvor mange dage gammel er jeg i dag?";svarnummer;1;svarmuligheder;9_8_7_5
 spørgsmål;"Bestem det mindste hele tal n så x^10 − 1001x^7 + 1 > 0 for alle x ≥ n";svarnummer;4;svarmuligheder;8_9_10_11
 spørgsmål;"Hvilket af følgende tal er mindst?";svarnummer;1;svarmuligheder;3/103_1/33_3/100_30/1003
+spørgsmål;"Hans og Jens har tilsammen 100 kroner, Hans har 60 kroner mere en Jens. Hvor mange penge har Hans og Børge?";svarnummer;4;svarmuligheder;Hans 55kr, Jens 45kr_Hans 60kr, Jens 40kr_Hans 30kr, Jens 70kr_Hans 20kr, Jens 80kr
+spørgsmål;"Bestem x for de 2 ligninger. 3x+4y=25 og 4x+2y=20";svarnummer;1;svarmuligheder;x=1_x=2_x=3_x=4
