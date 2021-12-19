@@ -1,20 +1,21 @@
-spørgsmål;"Variablen, x, i en funktion er normalt beskrevet med hvilket begreb?";svarnummer;2;svarmuligheder;Konstant_Uafhængig variabel_Afhængig variabel
-spørgsmål;"Bestem funktionsværdien for funktionen, f(x)=3x-14, hvor x = 2";svarnummer;1;svarmuligheder;-8_8_6
-spørgsmål;"Bestem funktionsværdien for funktionen, f(x)=3x-14, hvor x = 10";svarnummer;1;svarmuligheder;16_12_14
-spørgsmål;"Bestem for hvilken x-værdi funktionens, f(x)=3x-14, funktionsværdi er 78";svarnummer;4;svarmuligheder;31+1/3_29+1/3_21+1/3_30+2/3
-spørgsmål;"En funktion har forskriften g(x)=x/(x-2). Bestem g(-2)";svarnummer;2;svarmuligheder;1_0,5_0_-0,5
-spørgsmål;"En funktion har forskriften g(x)=x/(x-2). Bestem g(x)=2";svarnummer;2;svarmuligheder;-6_4_6_8_2
-spørgsmål;"Udfyld det manglende tal i talrækken, givet at x og y er ligefrem proportionale. x=[3,?,9] y=[18,42,54]";svarnummer;2;svarmuligheder;6_7_8_5
-spørgsmål;"Hvilken funktion beskriver regneopskriften: Læg fire til tallet.";svarnummer;4;svarmuligheder;f(x)=2x+2_f(x)=4x_f(x)=x^4_f(x)=x+4
-spørgsmål;"Bestem x-værdien til skæringspunktet mellem de 2 grafer. f(x)=3x+8, g(x)=7x-4";svarnummer;3;svarmuligheder;1_2_3_4
-spørgsmål;"Hvilken forskrift for en lineær funktion går gennem punktet P(2,1) og har hældningskoefficienten a=-1/2";svarnummer;2;svarmuligheder;f(x)=1/2x+2_f(x)=-1/2x+2_f(x)=1/4-2_f(x)=-1/2x-2
-spørgsmål;"Hvilken forskrift for en lineær funktion går gennem punkterne A(2,3) og B(-1,9)?";svarnummer;2;svarmuligheder;f(x)=4x+5_f(x)=-2x+7_f(x)=-x+5_f(x)=-1/2x+3
-spørgsmål;"Ligger punkterne A(−6,−1), B(−1,5) og C(14,23) på en ret linje?";svarnummer;1;svarmuligheder;Ja_Nej
-spørgsmål;"En bestemt vares pris vokser lineært med tiden. Prisen i 2010 var 66 kr og i 2015 var prisen 76 kr. Hvad vil prisen være i 2019?";svarnummer;4;svarmuligheder;80kr_86kr_82kr_84kr
-spørgsmål;"En lineær funktion f vokser med 8, når x øges med 4. Endvidere ved man, at grafen for f går gennem punktet (3,4). Bestem en forskriften for f";svarnummer;3;svarmuligheder;f(x)=2x_f(x)=8x-8_f(x)=2x-2_f(x)=4x-8
-spørgsmål;"For den lineære funktion h(x) gælder h(−1) = −13 og h(4) = 32.Bestem en funktionsforskrift for funktionen";svarnummer;2;svarmuligheder;h(x)=9x-10_h(x)=9x-4_h(x)=5x+2_h(x)=8x-3
-spørgsmål;"En linje har hældningen −2 og går gennem punktet (3,1). Hvis stigningen i funktionsværdien er 38, hvad er ændringen for x?";svarnummer;4;svarmuligheder;-17_19_17_-19
-spørgsmål;"Hvordan betegnes forklaringsgraden for en linje af lineær regression normalt?";svarnummer;3;svarmuligheder;F^2_C_R^2_E2
-spørgsmål;"Hvad er den generelle forskrift for lineær funktion?";svarnummer;1;svarmuligheder;f(x)=ax+b_f(x)=bx*c_f(x)=ax+x_f(x)=x^2
-spørgsmål;"Skærer de 2 funktioner hinanden? f(x)=1/2x+5 og g(x)=-1/2x+6";svarnummer;1;svarmuligheder;Ja_Nej
-spørgsmål;"Skærer de 2 funktioner hinanden? f(x)=15x+22 og g(x)=15x+7";svarnummer;2;svarmuligheder;Ja_Nej
+zwÿynztìsB)]hyphislu3'3'p'lu'm|ur{pvu'ly'uvyths{'ilzryl}l{'tlk'o}psrl{'ilnyliF)Bz}hyu|ttlyB9Bz}hyt|spnolklyBRvuz{hu{f\hmoíunpn'}hyphilsfHmoíunpn'}hyphils
+zwÿynztìsB)Ilz{lt'm|ur{pvuz}íykplu'mvy'm|ur{pvulu3'm/0D:48;3'o}vy''D'9)Bz}hyu|ttlyB8Bz}hyt|spnolklyB4?f?f=
+zwÿynztìsB)Ilz{lt'm|ur{pvuz}íykplu'mvy'm|ur{pvulu3'm/0D:48;3'o}vy''D'87)Bz}hyu|ttlyB8Bz}hyt|spnolklyB8=f89f8;
+zwÿynztìsB)Ilz{lt'mvy'o}psrlu'4}íykp'm|ur{pvuluz3'm/0D:48;3'm|ur{pvuz}íykp'ly'>?)Bz}hyu|ttlyB;Bz}hyt|spnolklyB:8286:f9@286:f98286:f:7296:
+zwÿynztìsB)Lu'm|ur{pvu'ohy'mvyzrypm{lu'n/0D6/4905'Ilz{lt'n/490)Bz}hyu|ttlyB9Bz}hyt|spnolklyB8f73<f7f473<
+zwÿynztìsB)Lu'm|ur{pvu'ohy'mvyzrypm{lu'n/0D6/4905'Ilz{lt'n/0D9)Bz}hyu|ttlyB9Bz}hyt|spnolklyB4=f;f=f?f9
+zwÿynztìsB)\kmsk'kl{'thunslukl'{hs'p'{hsyírrlu3'np}l{'h{''vn''ly'spnlmylt'wyvwvy{pvuhsl5'Db:3F3@d'Db8?3;93<;d)Bz}hyu|ttlyB9Bz}hyt|spnolklyB=f>f?f<
+zwÿynztìsB)O}psrlu'm|ur{pvu'ilzryp}ly'ylnulvwzrypm{luA'Sín'mpyl'{ps'{hssl{5)Bz}hyu|ttlyB;Bz}hyt|spnolklyBm/0D929fm/0D;fm/0De;fm/0D2;
+zwÿynztìsB)Ilz{lt'4}íykplu'{ps'zríypunzw|ur{l{'tlsslt'kl'9'nyhmly5'm/0D:2?3'n/0D>4;)Bz}hyu|ttlyB:Bz}hyt|spnolklyB8f9f:f;
+zwÿynztìsB)O}psrlu'mvyzrypm{'mvy'lu'spulíy'm|ur{pvu'nìy'nluult'w|ur{l{'W/9380'vn'ohy'oískupunzrvlmmpjplu{lu'hD4869)Bz}hyu|ttlyB9Bz}hyt|spnolklyBm/0D86929fm/0D486929fm/0D86;49fm/0D486949
+zwÿynztìsB)O}psrlu'mvyzrypm{'mvy'lu'spulíy'm|ur{pvu'nìy'nluult'w|ur{lyul'H/93:0'vn'I/483@0F)Bz}hyu|ttlyB9Bz}hyt|spnolklyBm/0D;2<fm/0D492>fm/0D42<fm/0D48692:
+zwÿynztìsB)Spnnly'w|ur{lyul'H/∙=3∙803'I/∙83<0'vn'J/8;39:0'wì'lu'yl{'spuqlF)Bz}hyu|ttlyB8Bz}hyt|spnolklyBQhfUlq
+zwÿynztìsB)Lu'ilz{lt{'}hylz'wypz'}vrzly'spulíy{'tlk'{pklu5'Wypzlu'p'9787'}hy'=='ry'vn'p'978<'}hy'wypzlu'>='ry5'O}hk'}ps'wypzlu'}íyl'p'978@F)Bz}hyu|ttlyB;Bz}hyt|spnolklyB?7ryf?=ryf?9ryf?;ry
+zwÿynztìsB)Lu'spulíy'm|ur{pvu'm'}vrzly'tlk'?3'uìy''ÿnlz'tlk';5'Luk}pklyl'}lk'thu3'h{'nyhmlu'mvy'm'nìy'nluult'w|ur{l{'/:3;05'Ilz{lt'lu'mvyzrypm{lu'mvy'm)Bz}hyu|ttlyB:Bz}hyt|spnolklyBm/0D9fm/0D?4?fm/0D949fm/0D;4?
+zwÿynztìsB)Mvy'klu'spulíyl'm|ur{pvu'o/0'nískly'o/∙80'D'∙8:'vn'o/;0'D':95Ilz{lt'lu'm|ur{pvuzmvyzrypm{'mvy'm|ur{pvulu)Bz}hyu|ttlyB9Bz}hyt|spnolklyBo/0D@487fo/0D@4;fo/0D<29fo/0D?4:
+zwÿynztìsB)Lu'spuql'ohy'oískupunlu'∙9'vn'nìy'nluult'w|ur{l{'/:3805'O}pz'z{pnupunlu'p'm|ur{pvuz}íykplu'ly':?3'o}hk'ly'íukypunlu'mvy'F)Bz}hyu|ttlyB;Bz}hyt|spnolklyB48>f8@f8>f48@
+zwÿynztìsB)O}vykhu'il{lnulz'mvyrshypunznyhklu'mvy'lu'spuql'hm'spulíy'ylnylzzpvu'uvyths{F)Bz}hyu|ttlyB:Bz}hyt|spnolklyBMe9fJfYe9fL9
+zwÿynztìsB)O}hk'ly'klu'nlulylssl'mvyzrypm{'mvy'spulíy'm|ur{pvuF)Bz}hyu|ttlyB8Bz}hyt|spnolklyBm/0Dh2ifm/0Di1jfm/0Dh2fm/0De9
+zwÿynztìsB)Zríyly'kl'9'm|ur{pvuly'opuhukluF'm/0D8692<'vn'n/0D48692=)Bz}hyu|ttlyB8Bz}hyt|spnolklyBQhfUlq
+zwÿynztìsB)Zríyly'kl'9'm|ur{pvuly'opuhukluF'm/0D8<299'vn'n/0D8<2>)Bz}hyu|ttlyB9Bz}hyt|spnolklyBQhfUlq
+
