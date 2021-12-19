@@ -59,7 +59,13 @@ void setup()
   inQuiz = true;
   
   //Questions
-  file1 = loadStrings(file_read1); 
+  file1 = loadStrings(file_read1);
+  for(int i = 0; i<file1.length;i++)
+  {
+    file1[i] = dekrypter(file1[i]);
+  }
+  
+  
   for (int i = 0; i < file1.length; i++)
   {
     split_linei = split(file1[i], ';');
@@ -78,6 +84,11 @@ void setup()
   }
   
   file2 = loadStrings(file_read2); 
+  for(int i = 0; i<file2.length;i++)
+  {
+    file2[i] = dekrypter(file2[i]);
+  }
+  
   for (int i = 0; i < file2.length; i++)
   {
     split_linei = split(file2[i], ';');
@@ -444,7 +455,10 @@ String krypter(String input)
   
   for(int i = 0; i < input.length(); i++)
   {
-   ints[i] = int(chars[i]) + 7;
+   
+     ints[i] = int(chars[i]) + 7;
+   
+    
     
   }
   
